@@ -1,0 +1,198 @@
+.Top_Section {
+  /* margin-top: 50px; */
+  /* height: 80vh; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  padding: 0 200px;
+  /* margin-bottom: 0px; */
+}
+.Top_Section h1 {
+  font-size: 5vw;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+}
+.Top_Section p {
+  text-align: center;
+  font-weight: 400;
+  color: rgb(133, 133, 133);
+  font-size: 20px;
+  position: relative;
+  font-family: "Rubik", sans-serif;
+  top: -50px;
+}
+.btn {
+  border: none;
+  padding: 10px 50px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.192) 0px 5px 15px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 15px;
+  text-decoration: none;
+}
+.btn-primary {
+  background-color: #0d7ec9;
+  color: white;
+}
+.btn-primary-outline {
+  border: 1px solid #0d7ec9;
+  color: #0d7ec9;
+}
+.btn-secondary-outline {
+  border: 1px solid rgb(145, 144, 144);
+  background-color: white;
+  color: black;
+}
+.btn-secondary-outline:hover {
+  background-color: black;
+  color: white;
+}
+.fa-heart:hover {
+  border: none;
+  /* background-color: #f9d371; */
+  color: #f9d371;
+}
+.fa-github {
+  margin-left: 10px;
+}
+.fa-paper-plane {
+  margin-left: 10px;
+}
+.btn-secondary {
+  background-color: black;
+  color: white;
+}
+@media only screen and (max-width: 1400px) {
+  .Top_Section {
+    /* margin-top: 50px; */
+    /* height: 80vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 100px;
+    /* margin-bottom: 0px; */
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Top_Section {
+    margin-top: 50px;
+    height: 80vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .Top_Section p {
+    text-align: center;
+    font-weight: 400;
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+    position: relative;
+    font-family: "Rubik", sans-serif;
+    top: -20px;
+  }
+  .btn-secondary-outline {
+    border: 1px solid rgb(145, 144, 144);
+    background-color: white;
+    color: black;
+  }
+  .fa-github {
+    margin-left: 5px;
+  }
+  .fa-paper-plane {
+    margin-left: 5px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .Top_Section {
+    margin-top: 100px;
+    /* height: 60vh; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .Top_Section p {
+    text-align: center;
+    font-weight: 400;
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+    position: relative;
+    font-family: "Rubik", sans-serif;
+    top: -20px;
+  }
+  .btn-secondary-outline {
+    border: 1px solid rgb(145, 144, 144);
+    background-color: white;
+    color: black;
+  }
+  .btn-secondary {
+    background-color: black;
+    color: white;
+  }
+  .fa-github {
+    margin-left: 5px;
+  }
+  .fa-paper-plane {
+    margin-left: 5px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Top_Section {
+    margin-top: 50px;
+    /* height: 60vh; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10px;
+    /* margin: 0; */
+  }
+  .Top_Section h1 {
+    font-size: 8vw;
+    width: 100%;
+    font-family: "Rubik", sans-serif;
+  }
+  .Top_Section p {
+    text-align: center;
+    font-weight: 400;
+    color: rgb(133, 133, 133);
+    font-size: 15px;
+    position: relative;
+    font-family: "Rubik", sans-serif;
+    top: -20px;
+  }
+  .btn {
+    border: none;
+    padding: 5px 15px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.192) 0px 5px 15px;
+    cursor: pointer;
+  }
+  .btn-primary {
+    background-color: #0d7ec9;
+    color: white;
+
+    font-size: 15px;
+  }
+  .btn-secondary-outline {
+    border: 1px solid rgb(145, 144, 144);
+    background-color: white;
+    color: black;
+  }
+  .fa-github {
+    margin-left: 2px;
+  }
+  .fa-paper-plane {
+    margin-left: 2px;
+  }
+}

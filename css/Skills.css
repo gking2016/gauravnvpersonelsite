@@ -1,0 +1,93 @@
+.skills {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.skills2 {
+  padding: 30px;
+  border: 10px solid #ddd;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.progress-bar-container:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* Styling the h2 tag by giving color,
+letter spacing, font-size etc.*/
+.progress-bar-container h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  color: Black;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+/* Styling the border and box
+effect of the progress bar*/
+.progress-bar {
+  width: 60vw;
+  height: 20px;
+  margin-top: 5px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+.fnt {
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+}
+/* Stylingthe background color of each
+animation and border radius */
+.percentage {
+  display: block;
+  height: 100%;
+
+  border-radius: 5px;
+  animation: progress 1500ms ease-in 1;
+}
+
+/* Assigning width of each languages*/
+.c {
+  width: 85%;
+  background-color: #fd4747;
+}
+
+.java {
+  width: 70%;
+  background-color: orange;
+}
+
+.python {
+  width: 55%;
+  background-color: #064663;
+}
+
+.html {
+  width: 75%;
+  background-color: #f05454;
+}
+
+.css {
+  width: 65%;
+  background-color: #222831;
+}
+
+.javascript {
+  width: 55%;
+  background-color: #ecb365;
+}
+
+/* Animating the progress bar by
+initially starting from 0*/
+@keyframes progress {
+  from {
+    width: 0;
+  }
+}

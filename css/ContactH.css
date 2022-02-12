@@ -1,0 +1,70 @@
+.Footer2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+
+  padding: 40px;
+  color: white;
+  background-color: black;
+  font-family: "Rubik", sans-serif;
+  border-radius: 10px;
+  height: 50vh;
+}
+
+.Footer_Footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  /* width: 1000px; */
+}
+.cent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.cent p {
+  color: #ddd;
+}
+.Connect {
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.Connect input {
+  border: none;
+}
+.Connect input:focus {
+  border: none;
+  outline: none;
+}
+.Connect button {
+  border: none;
+  background-color: #ddd;
+  padding: 5px 10px;
+}
+.Footer_Footer i {
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+  .Footer2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+
+    padding: 40px;
+    color: white;
+    background-color: black;
+    font-family: "Rubik", sans-serif;
+    border-radius: 10px;
+    height: 50vh;
+    position: relative;
+    top: 500px;
+  }
+}

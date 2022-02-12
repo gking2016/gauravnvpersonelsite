@@ -1,0 +1,133 @@
+body {
+  overflow-x: hidden;
+}
+.Container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* padding: 30px; */
+}
+.Container2 {
+  /* height: 90vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.Container2 h1 {
+  font-size: 50px;
+  font-family: "Rubik", sans-serif;
+}
+.Card {
+  width: 10rem;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  margin: 20px;
+  height: fit-content;
+}
+.Card_img {
+  width: 100%;
+  height: 250px;
+}
+
+.Card_body {
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.img_Card {
+  height: 200px;
+  width: 300px;
+  /* position: abso; */
+  margin: 10px;
+}
+
+.img_Card img {
+  box-shadow: rgba(0, 0, 0, 0.478) 0px 5px 15px;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+.img_Card h5 {
+  position: relative;
+  top: -160px;
+  left: 110px;
+  color: white;
+  visibility: hidden;
+}
+.img_Card a {
+  position: relative;
+  top: -130px;
+  left: 100px;
+  border: 3px solid white;
+  color: white;
+  padding: 5px 15px;
+  visibility: hidden;
+  cursor: pointer;
+  background: none;
+  border-radius: 5px;
+}
+.img_Card:hover img {
+  filter: blur(4px);
+}
+.img_Card:hover a,
+.img_Card:hover h5 {
+  visibility: visible;
+  opacity: 1;
+}
+.img_Card a:hover {
+  background-color: white;
+  color: black;
+}
+.ProjectDetail {
+  display: flex;
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.ProjectBody {
+  padding: 20px;
+  width: 500px;
+  margin-bottom: 30px;
+}
+.ProjectDetail img {
+  box-shadow: rgba(0, 0, 0, 0.178) 0px 5px 15px;
+  border-radius: 10px;
+  width: 320px;
+}
+.ProjectBody h1,
+.ProjectBody p,
+.ProjectBody a {
+  margin-bottom: 10vh;
+}
+
+@media only screen and (max-width: 400px) {
+  .Container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    /* top: 200px; */
+    /* padding: 30px; */
+  }
+  .Container2 {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 200px;
+    /* padding: 30px; */
+  }
+}
